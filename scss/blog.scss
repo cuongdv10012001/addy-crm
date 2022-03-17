@@ -1,0 +1,219 @@
+body {
+    background-color: #f9f9f9;
+}
+.header {
+    height: 100px;
+    box-shadow: 0px 1px lightslategrey;
+}
+.header-title {
+    display: inline-block;
+    color: black;
+}
+.header-title-tail {
+    display: inline-block;
+    color: #FEB900;
+}
+.language-icon{
+    background-color: red;
+    padding:0.5em 1em;
+    .bi-star-fill {
+        color: yellow;
+    }
+}
+.nav-link-page {
+    margin: 0 10px;
+}
+.driver {
+    background-color: #FD9D00;
+    margin: -5px auto 0;
+    width: 2em;
+    height: 5px;
+}
+.free-use {
+    background-color: #FD9D00;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+.title-categories {
+    border-left: 8px solid #FD9D00;
+    border-top-left-radius: 5px;
+}
+.new-blog-links {
+    text-decoration: none;
+    .new-blog-link1 {
+        min-height: 432px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.280), rgba(0, 0, 0, 0.280)), url(/img/blog/new-blog.png);
+        background-size: cover;
+        background-position: center center;
+        .new-blog-title {
+            padding: 300px 1em 0 1em;
+            
+            color: white;
+        }
+        .new-blog-time {
+            color: white;
+            padding-left: 1.5em;
+            padding-bottom: 1em;
+        }
+    }
+    .new-nlog-link2 {
+        min-height: 200px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url(/img/blog/new-blog1.png);
+        background-size: cover;
+        background-position: center center;
+        margin-bottom: 2em;
+        .new-blog-title {
+            padding: 120px 8px 0 8px;
+            color: white;
+        }
+        .new-blog-time {
+            color: white;
+            padding-left: 12px;
+            padding-bottom: 8px;
+        }
+    }
+    .new-nlog-link3 {
+        min-height: 200px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url(/img/blog/new-blog2.png);
+        background-size: cover;
+        background-position: center center;
+        .new-blog-title {
+            padding: 100px 0.5em 0 0.5em;
+            
+            color: white;
+        }
+        .new-blog-time {
+            color: white;
+            padding-left: 12px;
+            padding-bottom: 0.5em;
+        }
+    }
+    .new-nlog-link4 {
+        min-height: 200px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), url(/img/blog/new-blog3.png);
+        background-size: cover;
+        background-position: center center;
+        .new-blog-title {
+            padding: 100px 0.5em 0 0.5em;
+            
+            color: white;
+        }
+        .new-blog-time {
+            color: white;
+            padding-left: 12px;
+            padding-bottom: 0.5em;
+        }
+    }
+    .new-blog-link {
+        transition: all .2s ease-in-out;
+    }
+    .new-blog-link:hover {
+        transform: scale(1.01);
+    }
+}
+.new-blog-links:hover {
+    text-decoration: none;
+}
+.news-highlight-title {
+    margin-bottom: 1em;
+}
+.news-highlight-bottom {
+    font-size: 13px;
+    margin-top: -8px;
+}
+.news-highlight-links {
+    color: black;
+}
+.news-highlight-links:hover {
+    text-decoration: none;
+    color: #000000;
+
+}
+.news-highlight-room {
+    transition: all .2s ease-in-out;
+}
+.news-highlight-room:hover {
+    transform: scale(1.01);
+}
+.care {
+    margin-left: 6em;
+    .news-care-links {
+        color: black;
+    }
+    .news-care-links:hover {
+        text-decoration: none;
+        color: #FD9D00;
+    }
+    .news-categories-links {
+        color: black;
+    }
+    .news-categories-links:hover {
+        text-decoration: none;
+        color: #FD9D00;
+    }
+}
+.care2 {
+    margin-top: 4em;
+}
+.care2-bottom {
+    margin-left: -1em;
+    width: 200px;
+}
+.news-care-content {
+    font-size: 12px;
+}
+.news-care-img {
+    width: 40%;
+    float: left;
+}
+.carousel {
+    width: 200px;
+    margin: 5em auto 0;
+}
+.carousel-item {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.more-page {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em;
+}
+.more-page-links {
+    color: #000000;
+}
+.more-page-links:hover {
+    text-decoration: none;
+    background-color: #FD9D00;
+    color: #000000;
+}
+.footer {
+    margin-top: 5em;
+    background-color: #10213d;
+}
+.footer-title {
+    color: white;
+}
+.address-footer {
+    color: white;
+}
+.about-us {
+    color: white;
+}
+.img-contact {
+    width: 240px;
+    border-radius: 10px;
+}
+.link-download {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #000000;
+    padding: 2px 1em;
+    border-radius: 10px;
+}
+.link-download:hover {
+    color: white;
+    text-decoration: none;
+}

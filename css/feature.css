@@ -1,0 +1,134 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.header {
+  height: 100px;
+  -webkit-box-shadow: 0px 1px lightslategrey;
+          box-shadow: 0px 1px lightslategrey;
+}
+
+.header-title {
+  display: inline-block;
+  color: black;
+}
+
+.header-title-tail {
+  display: inline-block;
+  color: #FEB900;
+}
+
+.language-icon {
+  background-color: red;
+  padding: 0.5em 1em;
+}
+
+.language-icon .bi-star-fill {
+  color: yellow;
+}
+
+.nav-link-page {
+  margin: 0 10px;
+}
+
+.driver {
+  background-color: #FD9D00;
+  margin: -5px auto 0;
+  width: 2em;
+  height: 5px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.free-use {
+  background-color: #FD9D00;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+
+.top-banner {
+  background-image: url(/img/Picture3.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.top-banner-item {
+  margin-top: 1px;
+  margin-bottom: 5em;
+  width: 100%;
+}
+
+.top-banner-item .banner-title {
+  margin-top: 2em;
+}
+
+.top-banner-item .banner-content {
+  margin: 1em 0 3em;
+}
+
+.top-banner-item .banner-button {
+  margin-top: 2em;
+  padding: 10px 2em;
+  border-radius: 20px;
+  background-color: c;
+}
+
+.top-banner-item .banner-button:hover {
+  text-decoration: none;
+}
+
+.layout-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-content {
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 2em;
+  background-color: #10213d;
+}
+
+.footer-title {
+  color: white;
+}
+
+.address-footer {
+  color: white;
+}
+
+.about-us {
+  color: white;
+}
+
+.img-contact {
+  width: 240px;
+  border-radius: 10px;
+}
+
+.link-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background-color: #000000;
+  padding: 2px 1em;
+  border-radius: 10px;
+}
+
+.link-download:hover {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=feature.css.map */

@@ -1,0 +1,181 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.header {
+  height: 100px;
+  -webkit-box-shadow: 0px 1px lightslategrey;
+          box-shadow: 0px 1px lightslategrey;
+}
+
+.header-title {
+  display: inline-block;
+  color: black;
+}
+
+.header-title-tail {
+  display: inline-block;
+  color: #FEB900;
+}
+
+.language-icon {
+  background-color: red;
+  padding: 0.5em 1em;
+}
+
+.language-icon .bi-star-fill {
+  color: yellow;
+}
+
+.nav-link-page {
+  margin: 0 10px;
+}
+
+.driver {
+  background-color: #FD9D00;
+  margin: -5px auto 0;
+  width: 2em;
+  height: 5px;
+}
+
+.free-use {
+  background-color: #FD9D00;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.main {
+  background-image: url(/img/document/bcgmain.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-top {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 139, 0.26)), to(rgba(0, 0, 139, 0.26))), url(/img/document/Picture1.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 139, 0.26), rgba(0, 0, 139, 0.26)), url(/img/document/Picture1.png);
+  background-size: cover;
+  background-position: center center;
+  height: 25em;
+  margin-bottom: 5em;
+}
+
+.banner-top .banner1 {
+  margin: auto auto;
+}
+
+.input-group-text {
+  padding: 10px 0em 10px 2em;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.form-control {
+  padding: 10px 1em;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.form-inline {
+  display: block;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.document-page-title {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.title-document-child {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 3em;
+}
+
+.supperior-feature-title {
+  margin-bottom: 0;
+}
+
+.feature-child {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.feature-child .feature-child-items .feature-name {
+  margin-top: 2em;
+}
+
+.title-link {
+  color: black;
+}
+
+.title-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.views-date {
+  font-size: 10px;
+}
+
+.video-title {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.video-support {
+  width: 240px;
+}
+
+.question-item {
+  padding: 0 2em;
+}
+
+.bi-question-circle-fill {
+  color: darkblue;
+}
+
+.footer {
+  margin-top: 15em;
+  background-color: #10213d;
+}
+
+.footer-title {
+  color: white;
+}
+
+.address-footer {
+  color: white;
+}
+
+.about-us {
+  color: white;
+}
+
+.img-contact {
+  width: 240px;
+  border-radius: 10px;
+}
+
+.link-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background-color: #000000;
+  padding: 2px 1em;
+  border-radius: 10px;
+}
+
+.link-download:hover {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=document.css.map */
